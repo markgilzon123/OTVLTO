@@ -1,0 +1,27 @@
+
+#nav,ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3f3f3;
+    position: fixed;
+    top: 0;
+    width: 100%;
+	border-bottom: 1px solid #bfbfbf;  /*box-shadow: 5px 5px 5px #999; 
+     -moz-box-shadow: 5px 5px 5px #999;
+     -webkit-box-shadow: 5px 5px 5px #999; */
+}
+
+#nav, ul:hover{
+	 box-shadow: 5px 5px 5px #048d83; 
+	 -moz-box-shadow: 5px 5px 5px #999;
+     -webkit-box-shadow: 5px 5px 5px #999;
+}
+
+li {
+  
+	
+	
+}
+

@@ -1,0 +1,73 @@
+
+body{
+				background-image: url("image1.jpg");
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-attachment: fixed;
+				filter: opacity(opacity: 2.0);
+				z-index: -1;
+			}
+			input[type="text"]
+			{
+				height: 26px;
+				width: 250px;
+			}
+			input[type="password"]
+			{
+				height: 26px;
+				width: 250px;
+			}
+			input[type="submit"]
+			{
+				height: 39px;
+				width: 120px;
+				background: indianred;
+				color: white;
+				text-decoration: none;
+				border: none;
+				font-size: 23px;
+			}
+
+/*--------------------------------------------------------*/
+input#field1 { 
+	background-image: url('avatar.png');
+	background-repeat: no-repeat;
+	background-position: 6px;
+	border: 1px solid #DADADA;
+	margin-top: 8px;
+	padding-left: 35px;
+	width: 150px; 
+	height: 20px; 
+	font-size: 14px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;	/* for I.E */
+	-moz-border-radius: 5px; 	/* for Mozilla web browser*/
+}
+input#field1:hover { 
+	box-shadow: 0 0 10px;
+	-webkit-box-shadow:  0 0 10px;	/* for I.E */
+	-moz-box-shadow: 0 0 10px;	/* for Mozilla web browser*/
+}
+
+input#field2 { 
+	background-image: url('pad.png');
+	background-repeat: no-repeat;
+	background-position: 6px;
+	border: 1px solid #DADADA;
+	margin-top: 8px;
+	padding-left: 35px;
+	width: 150px; 
+	height: 20px; 
+	font-size: 14px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;	/* for I.E */
+	-moz-border-radius: 5px; 	/* for Mozilla web browser*/
+}
+input#field2:hover { 
+	box-shadow: 0 0 10px;
+	-webkit-box-shadow:  0 0 10px;	/* for I.E */
+	-moz-box-shadow: 0 0 10px;	/* for Mozilla web browser*/
+}
+input#sub:hover{
+	background-color:red;
+}
